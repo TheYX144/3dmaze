@@ -5,21 +5,24 @@
     "dependencies": {
         "device": "*",
         "pxt-raycasting": "github:aqeeaqee/pxt-raycasting#v0.3.14",
-        "pxt-countup": "github:shakao/pxt-countup#v0.0.2"
+        "pxt-countup": "github:shakao/pxt-countup#v0.0.2",
+        "arcade-mini-menu": "github:riknoll/arcade-mini-menu\\#c8b01b9d47f85a5133c786f1c026b1f376fe4285",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0"
     },
     "files": [
         "main.blocks",
-        "main.ts",
         "README.md",
         "assets.json",
         "tilemap.g.jres",
-        "tilemap.g.ts"
+        "tilemap.g.ts",
+        "main.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.8.26",
+        "target": "1.12.32",
         "targetId": "arcade"
     },
     "supportedTargets": [
